@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- System Information Activities -->
+        <activity
+            android:name=".systeminformation.SystemInformationActivity"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
